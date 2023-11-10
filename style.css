@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.p5Canvas {
+  position: fixed;
+  top: 0;
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.78);
+  width: 95%; 
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+  font-size: 1.8em;
+  text-align: center;
+}
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0;
+}
+
+.grid-item {
+  width: 30%; /* Esto divide el ancho en 3 partes iguales */
+  height: 100px; /* Ajusta la altura según tus preferencias */
+  background-color: rgba(0, 0, 0, 0.2); /* Color de fondo de las casillas */
+  border: 1px solid rgba(0, 0, 0, 0.4); /* Borde de las casillas */
+  text-align: center;
+  font-size: 1em; /* Tamaño del texto en las casillas */
+  padding: 1em;
+}

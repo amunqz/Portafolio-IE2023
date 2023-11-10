@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @font-face {
+      font-family: 'PoppinsBold';
+      src: url('Poppins-Bold.ttf') format('truetype');
+    }
+
+    @font-face {
+      font-family: 'LoraRegular';
+      src: url('Lora-Regular.ttf') format('truetype');
+    }
+
+    h1 {
+      font-family: 'PoppinsBold';
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-family: 'LoraRegular';
+      font-size: 16px;
+      color: #000000;
+      text-align: justify;
+    }
+
+    .text-container {
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 900px;
+      margin: 0 auto;
+      margin-top: 40px;
+    }
+
+    .imagen {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      margin-top: 30px;
+    }
+
+    .imagenes-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 10px;
+      margin-right: 0; /* Ajuste aquí para eliminar el margen */
+    }
+
+    .image-container img {
+      width: 277px;
+      height: 157px;
+    }
+
+    .imagen-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+  </style>
+</head>
+
+<body id="background">
+  <main>
+    <h1>PORTAFOLIO IMAGEN ESCRITA 2023</h1>
+    <a href="https://wiki.ead.pucv.cl/Amanda_Mu%C3%B1oz" class="imagen-link">
+    <img class="imagen" src="Imágenes\900px-Retrato-11-15-53.png">
+    <div class="text-container">
+      <h2>Estudio diseño en la PUCV, escuela de arquitectura y diseño e[ad] Viña del Mar, Chile. Donde curso el taller de Imagen Escrita con el cual a lo largo de mi segundo semestre de primero he estado aprendiendo a codificar en en HTML y CSS utilizando p5.js.</h2>
+      <h2>Este portafolio es mi página de proyecto final donde podrás encontrar mis tareas, iteraciones y exploración personal.</h2>
+    </div>
+    <h1>Mis tareas</h1>
+    <div class="imagenes-container">
+      <a href="https://amunqz.github.io/Encargo_02/" class="imagen-link">
+        <div class="image-container">
+          <img src="Imágenes\1.png" alt="Descripción de la imagen 1">
+        </div>
+      </a>
+      <a href="https://amunqz.github.io/Timbre-monograma---Imagen-Escrita/" class="imagen-link">
+        <div class="image-container">
+          <img src="Imágenes\2.png" alt="Descripción de la imagen 2">
+        </div>
+      </a>
+      <a href="https://amunqz.github.io/Recursi-n-de-Girasol---Imagen-Escrita/" class="imagen-link">
+        <div class="image-container">
+          <img src="Imágenes\3.png" alt="Descripción de la imagen 3">
+        </div>
+      </a>
+      <a href="https://amunqz.github.io/Encargo-02-Rotaci-n-/" class="imagen-link">
+        <div class="image-container">
+          <img src="Imágenes\4.png" alt="Descripción de la imagen 4">
+        </div>
+      </a>
+      <a href="https://amunqz.github.io/Imagen_escrita_08_09/" class="imagen-link">
+        <div class="image-container">
+          <img src="Imágenes/5.png" alt="Descripción de la imagen 5">
+        </div>
+      </a>
+      <a href="https://amunqz.github.io/Encargo_03-Timbre/" class="imagen-link">
+        <div class="image-container">
+          <img src="Imágenes\6.png" alt="Descripción de la imagen 6">
+        </div>
+      </a>
+    </div>
+  </main>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
